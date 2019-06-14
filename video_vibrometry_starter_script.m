@@ -58,10 +58,10 @@ if rescan_video
     save(mat_fname, 'mov', 'time_step');
 else
     load(mat_fname);
-    xsize = size(mov,2);
-    ysize = size(mov,1);
-    tsize = size(mov,3);
 end
+xsize = size(mov,2);
+ysize = size(mov,1);
+tsize = size(mov,3);
 
 %--------------------------------------------------------------------------
 %show first frame of video so you can see what's what
