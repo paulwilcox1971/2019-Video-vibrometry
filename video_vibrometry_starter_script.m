@@ -10,7 +10,7 @@ original_fname = 'tuning fork 3.avi';
 %save as Matlab file with same name but *.mat extension instead. 
 %If rescan_video == 0, Matlab will open the *.mat file with same name and 
 %use pre-cropped and downsampled data that has been saved.
-rescan_video = 1; 
+rescan_video = 0; 
 
 %Following only meaningful if rescan_video = 1
 x_range = [380, 1280];y_range = [1, 300];
